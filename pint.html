@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+<style>
+.gaba {
+  font-family:'Gaegu', cursive;
+  font-size:80px;
+}
+
+body {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1 class='gaba'><b>FANTASY BEACH</b></h1>
+  <p><b>The only place I'd rather be...</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Press to make Pinterest-like</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="https://i.pinimg.com/originals/13/be/90/13be9058f68eb8ac2cc32aedf23038ef.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/78/ca/c8/78cac8ce0882207146b83b476d28eaf3.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsRjJf1S9nBX6gbJTV3CaBWLhVhmO1IGuQVQ9u2Mz8qkfTFS4t" style="width:100%">
+    <img src="https://i.pinimg.com/originals/36/ef/5b/36ef5b4b46835dfc2ed026895c3f80fb.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I6rkHyS94RnuiHusXbJkEUbmvEzzKfvD47ixG8O3qkSHT-EJ" style="width:100%">
+    <img src="http://www.louboutins-shoes.us/wp-content/uploads/long-beach-california-c2a5-me-c2a5-pinterest-palm-tree-tumblr.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="http://www.lovethispic.com/uploaded_images/20383-Campfire-Love.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/aa/48/f6/aa48f6927d1b648caa46c9e87956b28a.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/22/fe/b6/22feb6f57af876c0d2b39f7d93721e6d.jpg" style="width:100%">
+    <img src="https://data.whicdn.com/images/179695427/large.jpg" style="width:100%">
+    <img src="https://scontent-lhr3-1.cdninstagram.com/vp/4471bc0749ee277990bc17595e21c634/5B761856/t51.2885-15/e15/11375900_1412063829119698_1781314107_n.jpg" style="width:100%">
+    <img src="http://www.fahadabdullah.info/wp-content/uploads/18-best-beach-images-on-pinterest-artsy-pictures-tumblr.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://i.gifer.com/3B9F.gif" style="width:100%">
+    <img src="https://i.pinimg.com/originals/76/37/05/763705d0893cf0a04a7ad6c740136c48.jpg" style="width:100%">
+    <img src="http://www.t-flower-shop.com/wp-content/uploads/2018/04/tumblr-aesthetics-artsy-deep-instagram-girl-basic-vsco-sad-wallpaper-cute-insta-blonde-lights-photography-blue-theme-summer-i-pretend-m-okay-when.jpg" style="width:100%">
+    <img src="https://data.whicdn.com/images/108876345/large.jpg" style="width:100%">
+    <img src="https://s8.favim.com/orig/150807/california-coachella-festival-summer-Favim.com-3077335.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/58/5e/72/585e722481a3278263ca5a858c6c5013.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else {
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
