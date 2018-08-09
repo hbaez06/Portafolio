@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd"
+  >
+
+<html lang = "en">
+<head>
+  <script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*4)
+    var links=new Array()
+    links[0]="https://hbaez06.github.io/Portafolio/activity1.html"
+    links[1]="https://hbaez06.github.io/Portafolio/activity2.html"
+    links[2]="https://hbaez06.github.io/Portafolio/activity3.html"
+    links[3]="https://hbaez06.github.io/Portafolio/activity4.html"
+    links[4]="https://gabrielecirulli.github.io/2048/"
+
+    window.location=links[myrandom]
+}
+</script>
+  <title>Starting Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+
+  <style>
+
+
+  .tiny{
+    font-size: 10px;
+  }
+  .button {
+    color: rgb(237, 167, 4);
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    width: 135px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+    transform: translate(5px,-100px)
+
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 20px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+    .blue{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 50px;
+    }
+    .clay{
+      font-size: 35px;
+      font-family: 'Amiri', serif;
+    }
+    .back{
+      background-color: rgb(237, 192, 175);
+    }
+    .yellow{
+      font-size: 50px;
+      font-family: 'Homemade Apple', cursive;
+    }
+    .purp{
+      color: rgb(242, 78, 16);
+      font-size: 50px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .w3-padding::after{
+      padding: 1px;
+      max-height: inherit;
+    }
+
+
+  </style>
+
+</head>
+
+<body class="back">
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <img src="https://news.northwesternmutual.com/image/Brain_Animation_Alpha_v2_crop.gif" height="100" width="140"><a href="#home" class="w3-bar-item w3-button" style="vertical-align:right"><b class="blue">Precious Minds</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Home </span></a>
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Your Profile </span></a>
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Mental Health </span></a>
+        <a href="#about" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Helpful Numbers </span></a>
+        <a href="#contact" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>About Us</span></a>
+      </div>
+    </div>
+  </div>
+  <center class="clay">
+  <p> beep</P>
+  <p> boop</P>
+  <p class="tiny">bop</p>
+    <p class="yellow">Daily Questionaire</p>
+
+  <form action = "#" method = "post">
+                <center>
+
+                <table>
+                  <p class="blue">*How are you?</p>
+                <tr>
+                <td></td>
+                <td>
+                  <input type = "radio" value = "I’m great!" name = "feeling"/> I'm great! <br/>
+                  <input type = "radio" vaue = "I’m okay" name = "feeling"/> I'm okay <br/>
+                  <input type = "radio" value = "Neutral" name = "feeling"/> Neutral <br/>
+                  <input type = "radio" value = "I could be better" name = "feeling"/> I could be better <br/>
+                  <input type = "radio" value = "Not good" name = "feeling"/> Not good <br/>
+                  <input type = "radio" value = "Really bad" name = "feeling"/> Really bad <br/>
+                </td>
+              </tr>
+                    <center>
+                    <table>
+                      <p class="blue">*What words describe how you are currently feeling?</p>
+                    <tr>
+                    <td></td>
+                    <td>
+                      <input type = "radio" value = "Worried and tired" name = "emotions"/> Worried and tired <br/>
+                      <input type = "radio" vaue = "Overwhelmed and disappointed" name = "emotions"/> Overwhelmed and disappointed <br/>
+                      <input type = "radio" value = "Rushed but can’t seem to focus" name = "emotions"/> Rushed but cant seem to focus <br/>
+                      <input type = "radio" vaue = "Sad" name = "emotions"/> Sad <br/>
+                      <input type = "radio" value = "Happy" name = "emotions"/> Happy <br/>
+                    </td>
+                  </tr>
+                </center>
+                      <center>
+                      <table>
+                        <p class="blue">*How much sleep did you get last night?</p>
+                      <tr>
+                      <td></td>
+                      <td>
+                        <input type = "radio" value = "I slept all night (7-9 hours)" name = "duration"/> I slept all night (7-9 hours) <br/>
+                        <input type = "radio" vaue = "I slept late and woke up early (less than 6 hours)" name = "duration"/> I slept late and woke up early (less than 6 hours) <br/>
+                        <input type = "radio" value = "I woke up often in my sleep" name = "duration"/> I woke up often in my sleep <br/>
+                        <input type = "radio" vaue = "I could not sleep last night" name = "duration"/> I could not sleep last night <br/>
+                        <input type = "radio" value = "I overslept (10 hours or more)" name = "duration"/> I overslept (10 hours or more) <br/>
+                      </td>
+                    </tr>
+                  </center>
+                        <center>
+                        <table>
+                          <p class="blue">*Do you like to go out with people?</p>
+                        <tr>
+                        <td></td>
+                        <td>
+                          <input type = "radio" value = "Yes, very often" name = "social"/> Yes, very often <br/>
+                          <input type = "radio" vaue = "Yes, but only sometimes" name = "social"/> Yes, but only sometimes <br/>
+                          <input type = "radio" value = "Yes, but very little" name = "social"/> Yes, but very little <br/>
+                          <input type = "radio" vaue = "No, I rather stay at home" name = "social"/> No, I rather stay at home <br/>
+                          <input type = "radio" value = "I do not want to be around people" name = "social"/> I do not want to be around people <br/>
+                        </td>
+                      </tr>
+                    </center>
+                          <center>
+                          <table>
+                            <p class="blue">*Have you gone out with people recently?</p>
+                          <tr>
+                          <td></td>
+                          <td>
+                            <input type = "radio" value = "Yes, one or two days ago" name = "behaviors"/> Yes, one or two days ago <br/>
+                            <input type = "radio" vaue = "Yes, a week ago" name = "behaviors"/> Yes, a week ago <br/>
+                            <input type = "radio" value = "Yes, three weeks (or less) ago" name = "behaviors"/> Yes, three weeks (or less) ago <br/>
+                            <input type = "radio" vaue = "No, I have not gone out since last month" name = "behaviors"/> No, I have not gone out since last month <br/>
+                          </td>
+                        </tr>
+                      </center>
+                            <center>
+                            <table>
+                              <p class="blue">*How much work have you had this week?</p>
+                            <tr>
+                            <td></td>
+                            <td>
+                              <input type = "radio" value = "A little" name = "habits"/> A little <br/>
+                              <input type = "radio" vaue = "A lot" name = "habits"/> A lot <br/>
+                              <input type = "radio" value = "None" name = "habits"/> None <br/>
+                              <input type = "radio" vaue = "Not a little but not a lot" name = "habits"/> Not a little but not a lot <br/>
+
+                            </td>
+                          </tr>
+                        </center>
+                      </table>
+                    </center>
+
+
+  </form>
+  <p>  </p>
+  <p>  hey</p>
+  <button class="button" onClick="randomlinks()"><span>Submit </span></button>
+
+</body>
+</html>
