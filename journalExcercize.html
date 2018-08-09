@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Prata" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<style>
+.hand{
+  font-family: 'Indie Flower', cursive;
+}
+#textboxid{
+  height: 500px;
+  width: 1300px;
+  font-size: 20px;
+}
+.tiny{
+  font-size: 10px;
+}
+.button {
+  color: rgb(237, 167, 4);
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 230px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  .blue{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+  }
+  .clay{
+    font-size: 35px;
+    font-family: 'Amiri', serif;
+  }
+  .back{
+    background-color: rgb(237, 192, 175);
+  }
+  .yellow{
+    font-size: 50px;
+    font-family: 'Homemade Apple', cursive;
+  }
+  .purp{
+    color: rgb(242, 78, 16);
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;;
+  }
+  </style>
+<body class="back">
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <img src="https://news.northwesternmutual.com/image/Brain_Animation_Alpha_v2_crop.gif" height="100" width="140"><a href="#home" class="w3-bar-item w3-button" style="vertical-align:right"><b class="blue">Precious Minds</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Home </span></a>
+      <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Your Profile </span></a>
+      <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Mental Health </span></a>
+      <a href="#about" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Helpful Numbers </span></a>
+      <a href="#contact" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>About the Creators </span></a>
+    </div>
+  </div>
+</div>
+<center class="clay">
+<p> beep</P>
+<p> boop</P>
+<p class="tiny">bop</p>
+<p class="yellow">Release Journal <img src="https://i.gifer.com/BK4f.gif" height="150" width="200"></p>
+<p class="purp"><b>Purpose:</b></p>
+<p>This journal is for you to let out all the things that are bothering you today whether that may
+  be all the work you still have to do, something you're nervous about, a story you'd like to share, a memory that
+  you love or one tha you hate, or any other thing that you may need to get off your chest.</p>
+<p>If you're worried that anyone will read this journal, don't worry no more! None of the Entries are saved to
+  any database, so we can't see it and no one else can either. We want you to release your emotions not store them
+  somewhere else.<p>
+<div class="w3-right w3-hide-small">
+  <a href="#projects" class="button" style="vertical-align:left" class="w3-bar-item w3-button" class="blue"><span>Finished </span></a>
+</div>
+<textarea type="text" cols="80" rows="80" class="hand"></textarea>
+
+</body>
+</html>
