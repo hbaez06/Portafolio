@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Sign Up Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Prata" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+<script>
+  function LinkToBio(){
+    window.open('https://hbaez06.github.io/Portafolio/finalproject.html#contact','_self')
+  }
+</script>
+  <title>Starting Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+
+  <style>
+  .tiny{
+    font-size: 10px;
+  }
+  .button {
+    color: rgb(237, 167, 4);
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(252, 73, 73);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    width: 135px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+    transform: translate(5px,-100px)
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 20px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+    .blue{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 50px;
+    }
+    .clay{
+      font-size: 35px;
+      font-family: 'Amiri', serif;
+    }
+    .back{
+      background-color: rgb(255, 214, 221);
+    }
+    .yellow{
+      font-size: 50px;
+      font-family: 'Homemade Apple', cursive;
+    }
+    .purp{
+      font-size: 50px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .w3-padding::after{
+      padding: 1px;
+      max-height: inherit;
+    }
+    .black{
+      color: rgb(0, 0, 0);
+    }
+
+  </style>
+
+</head>
+
+<body class="back">
+  <div class="w3-top">
+    <div class="w3-white w3-wide w3-padding w3-card">
+      <img src="https://news.northwesternmutual.com/image/Brain_Animation_Alpha_v2_crop.gif" height="100" width="140"><a href="#home" class="w3-bar-item w3-button" style="vertical-align:right"><b class="blue">Precious Minds</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Home </span></a>
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Your Profile </span></a>
+        <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Mental Health </span></a>
+        <a href="#about" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>Helpful Numbers </span></a>
+        <a href="#contact" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow"><span>About Us</span></a>
+      </div>
+    </div>
+  </div>
+<!-- Header -->
+<center class="clay">
+<p>bop</p>
+</br>
+<p class="purp black">Welcome to <b class="yellow">Precious Minds</b>!</p>
+<img src="https://whatshewroteblog.files.wordpress.com/2015/09/null-2.jpg" height="300" width="550">
+<p class="black">We value how you feel and we will do everything in our power to keep your mind at ease.</p>
+<p class="black">Take your daily Questionaire to find out how you can help yourself:</p>
+</br>
+</br>
+<div class="w3-hide-small">
+  <center>
+  <a href="#projects" class="button" style="vertical-align:right" class="w3-bar-item w3-button" class="yellow" onClick="LinkToBio()"><span>Questionaire </span></a>
+</div>
+Sign up below for a more personalized experience
+</center>
+<div id="login-box">
+  <div class="left-box">
+    <h1> Sign Up</h1>
+
+      <input type="text" name="username" placeholder="Username"/>
+      <input type="text" name="email" placeholder="Email"/>
+      <input type="password" name="password" placeholder="Password"/>
+
+      <input type="password" name="password2" placeholder="Confirm Password"/>
+
+      <input type="submit" name="signup-button" placeholder="Sign Up"/>
+
+
+  </div>
+  <div class="right-box">
+    <span class="signinwith">Sign in with<br/>Social Network
+    </span>
+
+  <button class="social facebook">Log in with Facebook</button>
+  <button class="social twitter">Log in with Twitter</button>
+  <button class="social google">Log in with Google+</button>
+
+</div>
+<div class="or">OR</div>
+
+
+
+</div>
+
+
+</body>
+<html>
